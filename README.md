@@ -1,14 +1,14 @@
 # Custom Vision vs Own Model for object detection
 
-## Opis projektu
+### Opis projektu
 
-## Funkcjonalności
+### Funkcjonalności
 
-## Wstępną architekturę (diagram)
+### Wstępną architekturę (diagram)
 
-## Stos technologiczny
+### Stos technologiczny
 
-## Harmonogram
+### Harmonogram
 
 | Lp. | Data | Zadanie | 
 | -------- | ------------- | ------------------------------------------------- |
