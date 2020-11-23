@@ -24,7 +24,11 @@ Zaskres danych (należy wybrać):
 ### Wstępną architekturę (diagram)
 
 ### Stos technologiczny
-Oprócz Custom Vision, mozna będzie uzyć [tu](https://azure.microsoft.com/en-us/services/media-services/video-indexer/) Video indexer. Może indeksować filmy, rozpoznaje twarze, nastroje (które pojawiają się na osi czasu), obiekty i tekst na ekranie. Można będzie brać dane z video, ale to do przymyślenia.
+- Microsoft Azure Storage Blocks,
+- Azure Machine Learning Services,
+- Microsoft Azure Custom Vision,
+- Microsoft Azure Machine Learning Compute Cluster
+- Python3, PyTorch, NumPy, SciPy,
 
 
 ### Kamienie milowe
