@@ -1,5 +1,12 @@
 # Custom Vision vs Own Model for object detection
 
+### Skład zespołu
+1. Ivan Prokpets,
+2. Aleksandr Karolik,
+3. Jakub Korczakowski,
+4. Piotr Rosa,
+5. Bartosz Puszkarski.
+
 ### Opis projektu
 Celem projektu jest zapoznanie się z usługą Custom Vision w Azure [start](https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/) oraz porównanie z własnym wyborem modelu dla wykrywanie obiektów. [dokumentacja do startu Custom Vision](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier).
 
@@ -18,6 +25,11 @@ Zaskres danych (należy wybrać):
 
 ### Stos technologiczny
 Oprócz Custom Vision, mozna będzie uzyć [tu](https://azure.microsoft.com/en-us/services/media-services/video-indexer/) Video indexer. Może indeksować filmy, rozpoznaje twarze, nastroje (które pojawiają się na osi czasu), obiekty i tekst na ekranie. Można będzie brać dane z video, ale to do przymyślenia.
+
+
+### Kamienie milowe
+1. Diagramy architektury oraz określenie zakresu prac i funkcjonalności.
+2. ...
 
 ### Harmonogram
 
