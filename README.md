@@ -21,7 +21,9 @@ Zaskres danych (należy wybrać):
   4. Samochody
   5. Popularne marki (brendy) Cola, Nike i td.
   
-### Wstępną architekturę (diagram)
+### Diagram
+![alt text](wykres.png "Design")
+
 
 ### Stos technologiczny
 - Microsoft Azure Storage Blocks,
