@@ -1,7 +1,7 @@
 # Custom Vision vs Own Model for object detection
 
 ### Skład zespołu
-1. Ivan Prokpets,
+1. Ivan Prakapets,
 2. Aleksandr Karolik,
 3. Jakub Korczakowski,
 4. Piotr Rosa,
