@@ -12,6 +12,16 @@ Celem projektu jest zapoznanie się z usługą Custom Vision w Azure [start](htt
 
 Usługa Custom Vision jest częścią chmurowych usług Cognitive Services na platformie Azure.
 
+### Zbiory danych
+
+W celu porówniania działania onu serwisów planujemy sprawdzić trzy zbiory danych, różnią się one wielkością. Wszystkie z nich zawierają obrazy wraz z otagowanymi obiektami (tagi w plikach `.xml` lub `.txt`).
+
+- Monkey, Cat and Dog detection (30 MB) - https://www.kaggle.com/tarunbisht11/yolo-animal-detection-small,
+- street object detection dataset (228 MB) - https://www.kaggle.com/fantacher/bd-street-object-detection-dataset,
+- Labeled Surgical Tools and Images (734 MB) - https://www.kaggle.com/dilavado/labeled-surgical-tools.
+
+Zbiorem referncyjnym w zadaniu detekcji obiektów jest zbiór COCO (https://cocodataset.org/#home). Jeśli zasoby dostępne na Azure umożliwią nam to planujemy użycie także tego zbioru.
+
 ### Funkcjonalności
 Nasz projekt będzie rozpoznawał, wykrywał obiekty.
 Zaskres danych (należy wybrać):
@@ -41,4 +51,18 @@ Zaskres danych (należy wybrać):
 
 | Lp. | Data | Zadanie | 
 | -------- | ------------- | ------------------------------------------------- |
-| 1        | 26.11.2020          | przedstawienie architektury projektu i tworzonych artefaktów                                |
+| 1        | 26.11.2020          | P2 - przedstawienie architektury projektu i tworzonych artefaktów                                |
+| 2    | 10.12.2020 | P3 - check-point|                                                              |
+| 3   | 07.01.2021 | P4 |
+| 4   | 14.01.2021 | P5 - middle-check point |
+| 5   | 21.01 | P6 |
+| 6   | 28.01 | P7 - prezentacja projektów                                   |                                                              |
+
+
+
+
+### Przydatne materiały
+
+Object detection w Custom Vision - https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/get-started-build-detector
+
+Deep Learning na Azure - https://github.com/Microsoft/HyperdriveDeepLearning
