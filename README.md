@@ -32,8 +32,9 @@ W  wyniku realizacji naszego projektu powstanie raport zawierające opis  przepr
 Raport końcowy będzie zawierał następujące rozdziały: 
  - Wstęp teoretyczny 
  - Architektury modeli 
- - Wyniki przebadanych modeli oraz je porównanie 
+ - Porównanie wyników modeli dla wszyskich zbiorów danych
  - Wnioski 
+ 
 ### Diagram
 ![alt text](wykres.png "Design")
 
