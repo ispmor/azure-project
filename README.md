@@ -55,8 +55,8 @@ Zaskres danych (należy wybrać):
 | 2    | 10.12.2020 | P3 - check-point|                                                              |
 | 3   | 07.01.2021 | P4 |
 | 4   | 14.01.2021 | P5 - middle-check point |
-| 5   | 21.01 | P6 |
-| 6   | 28.01 | P7 - prezentacja projektów                                   |                                                              |
+| 5   | 21.01.2021 | P6 |
+| 6   | 28.01.2021 | P7 - prezentacja projektów                                   |                                                              |
 
 
 
