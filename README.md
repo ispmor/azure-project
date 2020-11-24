@@ -2,7 +2,7 @@
 
 ### Skład zespołu
 1. Ivan Prakapets,
-2. Alksandr Karolik,
+2. Aliaksandr Karolik,
 3. Jakub Korczakowski,
 4. Piotr Rosa,
 5. Bartosz Puszkarski.
