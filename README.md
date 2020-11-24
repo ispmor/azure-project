@@ -8,7 +8,7 @@
 5. Bartosz Puszkarski.
 
 ### Opis projektu
-Celem projektu jest zapoznanie się z usługą Custom Vision w Azure [start](https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/) oraz porównanie z własnym wyborem modelu dla wykrywanie obiektów. [dokumentacja do startu Custom Vision](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier).
+Celem naszego projektu jest zapoznanie się z usługą Custom Vision na platformie Azure [start](https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/) oraz poszerzenie wiedzy z dziedziny widzenia komputerowego przez porównanie własnej modeli z usługą udostępnioną przez Microsoft. [dokumentacja do startu Custom Vision](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier).
 
 Usługa Custom Vision jest częścią chmurowych usług Cognitive Services na platformie Azure.
 
@@ -23,14 +23,17 @@ W celu porówniania działania onu serwisów planujemy sprawdzić trzy zbiory da
 Zbiorem referncyjnym w zadaniu detekcji obiektów jest zbiór COCO (https://cocodataset.org/#home). Jeśli zasoby dostępne na Azure umożliwią nam to planujemy użycie także tego zbioru.
 
 ### Funkcjonalności
-Nasz projekt będzie rozpoznawał, wykrywał obiekty.
-Zaskres danych (należy wybrać):
-  1. Rozpoznawanie oznakowania ekologicznego np. [przyklad zdjecia](https://www.spg-pack.com/blog/wp-content/uploads/2019/10/semitipo-1024x506-1024x506.jpg)
-  2. Zwierzę
-  3. Produkty żywności
-  4. Samochody
-  5. Popularne marki (brendy) Cola, Nike i td.
-  
+W  wyniku realizacji naszego projektu powstanie raport zawierające opis  przeprowadzonych badań oraz zostaną dostarczone wytrenowane modeli na wyżej omówionych zbiorach danych. W zależności od zbioru na którym model będzie trenowany powstaną modeli do detekcji:
+
+1.  Model do rozpoznawania kotów, psów oraz małp. 
+2.  Model do rozpoznawania ludzi, samochodów, motocykli, trójkolowiece, rikszy, autobus, policję drogową oraz ciężarówki.
+3.  Model do rozpoznawania oprzyrządowania medycznego (skalpel, pinceta, nożyczki chirurgiczne proste, nożyczki chirurgiczne zagięte)
+
+Raport końcowy będzie zawierał następujące rozdziały: 
+ - Wstęp teoretyczny 
+ - Architektury modeli 
+ - Wyniki przebadanych modeli oraz je porównanie 
+ - Wnioski 
 ### Diagram
 ![alt text](wykres.png "Design")
 
