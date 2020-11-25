@@ -41,6 +41,13 @@ Azure Custom Vision dostarcza możliwość wykorzystania dwóch rodzai modeli do
 Drugim modelem który zostanie wytrenowany, którego wydajność porównamy z możliwościami Azure Custom Vision, będzie Mask R-CNN ResNet-50 FPN. Do trenowania tego modelu wykorzystamy bibliotekę Pytorch. Zdecydowaliśmy się na wybór tego modelu ze względu na to, że w dokumentacji wspomnianej biblioteki Pytorch osiąga on najlepsze rezultaty z dostępnych modeli. 
 ![alt text](porownanie.png "Modele")
 
+### Porównanie modeli
+Wydajność modeli porównamy wykorzystując mean Average Precision. W standardowych przypadkach metryka ta mówi o tym ile z dokonanych predykcji zostało wykonanych poprawnie. W przypadku detekcji obiektów jest to znacznie bardziej skomplikowane. Tutaj znaczenie ma również to w jakim stopniu wynikowa ramka pokrywa się z tą rzeczywistą. Miarą mówiącą o tym jest Intersection over Union. Jej znaczenie najłatwiej przedstawić na schemacie:
+![alt text](iou.png "IoU")
+
+Mean Average Precision dla detekcji obiektów obliczane jest jako średnia z precyzji dla określonych poziomów IoU. Jeśli model rozpozna obiekt z gdzie IoU wynosi więcej niż określony próg oraz poprawnie go sklasyfikuje, predykcja ta zaliczana jest jako poprawna. Jeśli IoU jest poniżej progu lub obiekt został błędnie sklasyfikowany, predykcja jest niepoprawna. 
+Dodatkowym kryterium jest prawdopodobieństwo predykcji dokonanej przez model. Na tę wartość również można nałożyć ograniczenie - np. jeśli prawdopodobieństwo wynosi poniżej 70% nie wykorzystujemy tej predykcji podczas obliczania mAP. 
+
 ### Diagram
 ![alt text](wykres.png "Design")
 
