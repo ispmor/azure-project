@@ -79,4 +79,6 @@ Modele Torch Vision - https://pytorch.org/docs/stable/torchvision/models.html
 
 Trenowanie modelu Pytorch - https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html
 
+Wydobywanie tagów z wytrenowanego moedelu Custom Vision - https://docs.microsoft.com/pl-pl/samples/azure-samples/azure-search-power-skills/azure-customvision-sample/
+
 
