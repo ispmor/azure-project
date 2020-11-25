@@ -35,6 +35,12 @@ Raport końcowy będzie zawierał następujące rozdziały:
  - Porównanie wyników modeli dla wszyskich zbiorów danych
  - Wnioski 
  
+### Modele
+Azure Custom Vision dostarcza możliwość wykorzystania dwóch rodzai modeli do widzenia komputerowego: modelu do klasyfikacji obrazów oraz modelu do detekcji obiektów. W naszym projekcie wykorzystamy drugi typ, ponieważ skupiamy się na wykrywaniu różnego rodzaju obiektów występujących na zdjęciach.
+
+Drugim modelem który zostanie wytrenowany, którego wydajność porównamy z możliwościami Azure Custom Vision, będzie Mask R-CNN ResNet-50 FPN. Do trenowania tego modelu wykorzystamy bibliotekę Pytorch. Zdecydowaliśmy się na wybór tego modelu ze względu na to, że w dokumentacji wspomnianej biblioteki Pytorch osiąga on najlepsze rezultaty z dostępnych modeli. 
+![alt text](porownanie.png "Modele")
+
 ### Diagram
 ![alt text](wykres.png "Design")
 
@@ -69,4 +75,8 @@ Raport końcowy będzie zawierał następujące rozdziały:
 
 Object detection w Custom Vision - https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/get-started-build-detector
 
-Deep Learning na Azure - https://github.com/Microsoft/HyperdriveDeepLearning
+Modele Torch Vision - https://pytorch.org/docs/stable/torchvision/models.html
+
+Trenowanie modelu Pytorch - https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html
+
+
