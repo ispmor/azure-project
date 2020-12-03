@@ -62,7 +62,9 @@ Dodatkowym kryterium jest prawdopodobieństwo predykcji dokonanej przez model. N
 
 ### Kamienie milowe
 1. Diagramy architektury oraz określenie zakresu prac i funkcjonalności.
-2. ...
+2. Wdrążenie modelu Microsoft Azure Custom Vision 
+3. Wdrążenie modelu Mask R-CNN ResNet-50 FPN
+4. Raport z porównaniem dwóch modeli.
 
 ### Harmonogram
 
