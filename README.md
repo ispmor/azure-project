@@ -8,7 +8,7 @@
 5. Bartosz Puszkarski.
 
 ### Opis projektu
-Celem naszego projektu jest zapoznanie się z usługą Custom Vision na platformie Azure [start](https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/) oraz poszerzenie wiedzy z dziedziny widzenia komputerowego przez porównanie własnej modeli z usługą udostępnioną przez Microsoft. [dokumentacja do startu Custom Vision](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier).
+Celem naszego projektu jest zapoznanie się z usługą Custom Vision na platformie Azure [start](https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/) oraz poszerzenie wiedzy z dziedziny widzenia komputerowego przez porównanie własnoręcznie wytrenowanych modeli z usługą udostępnioną przez Microsoft. [dokumentacja do startu Custom Vision](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier).
 
 Usługa Custom Vision jest częścią chmurowych usług Cognitive Services na platformie Azure.
 
@@ -23,11 +23,11 @@ W celu porówniania działania onu serwisów planujemy sprawdzić trzy zbiory da
 Zbiorem referncyjnym w zadaniu detekcji obiektów jest zbiór COCO (https://cocodataset.org/#home). Jeśli zasoby dostępne na Azure umożliwią nam to planujemy użycie także tego zbioru.
 
 ### Funkcjonalności
-W  wyniku realizacji naszego projektu powstanie raport zawierające opis  przeprowadzonych badań oraz zostaną dostarczone wytrenowane modeli na wyżej omówionych zbiorach danych. W zależności od zbioru na którym model będzie trenowany powstaną modeli do detekcji:
+W  wyniku realizacji naszego projektu powstanie raport zawierający opis  przeprowadzonych badań oraz zostaną dostarczone wytrenowane modeli na wyżej omówionych zbiorach danych. W zależności od zbioru na którym model będzie trenowany powstaną modele do detekcji:
 
-1.  Model do rozpoznawania kotów, psów oraz małp. 
-2.  Model do rozpoznawania ludzi, samochodów, motocykli, trójkolowiece, rikszy, autobus, policję drogową oraz ciężarówki.
-3.  Model do rozpoznawania oprzyrządowania medycznego (skalpel, pinceta, nożyczki chirurgiczne proste, nożyczki chirurgiczne zagięte)
+1.  Model do detekcji kotów, psów oraz małp. 
+2.  Model do detekcji ludzi, samochodów, motocykli, trójkolowiece, rikszy, autobus, policję drogową oraz ciężarówki.
+3.  Model do detekcji oprzyrządowania medycznego (skalpel, pinceta, nożyczki chirurgiczne proste, nożyczki chirurgiczne zagięte)
 
 Raport końcowy będzie zawierał następujące rozdziały: 
  - Wstęp teoretyczny 
@@ -62,8 +62,8 @@ Dodatkowym kryterium jest prawdopodobieństwo predykcji dokonanej przez model. N
 
 ### Kamienie milowe
 1. Diagramy architektury oraz określenie zakresu prac i funkcjonalności.
-2. Wdrążenie modelu Microsoft Azure Custom Vision 
-3. Wdrążenie modelu Mask R-CNN ResNet-50 FPN
+2. Wdrożenie modelu Microsoft Azure Custom Vision 
+3. Wdrożenie modelu Mask R-CNN ResNet-50 FPN
 4. Raport z porównaniem dwóch modeli.
 
 ### Harmonogram
@@ -88,6 +88,6 @@ Modele Torch Vision - https://pytorch.org/docs/stable/torchvision/models.html
 
 Trenowanie modelu Pytorch - https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html
 
-Wydobywanie tagów z wytrenowanego moedelu Custom Vision - https://docs.microsoft.com/pl-pl/samples/azure-samples/azure-search-power-skills/azure-customvision-sample/
+Wydobywanie tagów z wytrenowanego modelu Custom Vision - https://docs.microsoft.com/pl-pl/samples/azure-samples/azure-search-power-skills/azure-customvision-sample/
 
 
