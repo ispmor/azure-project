@@ -2,3 +2,4 @@ data/*
 .env
 settings.json
 *.pyc
+own_model/scripts/Data/*
