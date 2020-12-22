@@ -3,3 +3,6 @@ data/*
 settings.json
 *.pyc
 own_model/scripts/Data/*
+own_model/model_latest.pth
+own_model/.azureml
+own_model/.ipynb_checkpoints
