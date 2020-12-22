@@ -1,0 +1,4 @@
+data/*
+.env
+settings.json
+*.pyc
