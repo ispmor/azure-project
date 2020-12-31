@@ -77,13 +77,16 @@ if __name__ == "__main__":
 data_path = args.data_path
 
 # use our dataset and defined transformations
-dataset = BuildDataset(data_path, get_transform(train=True))
-dataset_test = BuildDataset(data_path, get_transform(train=False))
+dataset = BuildDataset(data_path, get_transform(train=True), train=True)
+dataset_test = BuildDataset(data_path, get_transform(train=False), train=False)
+# dataset_test = BuildDataset(data_path, get_transform(train=False), train=True)
 
 # split the dataset in train and test set
-indices = torch.randperm(len(dataset)).tolist()
-dataset = torch.utils.data.Subset(dataset, indices[:-100])
-dataset_test = torch.utils.data.Subset(dataset_test, indices[-100:])
+# indices = torch.randperm(len(dataset)).tolist()
+# dataset = torch.utils.data.Subset(dataset, range(0, len(dataset)))
+# dataset_test = torch.utils.data.Subset(dataset_test, range(0, len(dataset_test)))
+# dataset = torch.utils.data.Subset(dataset, indices[:-100])
+# dataset_test = torch.utils.data.Subset(dataset_test, indices[-100:])
 
 batch_size = args.batch_size
 workers = args.workers
@@ -107,7 +110,7 @@ data_loader_test = torch.utils.data.DataLoader(
 
 
 # our dataset has two classes only - background and out of stock
-num_classes = 2
+num_classes = 4
 
 model = get_model(
     num_classes,
